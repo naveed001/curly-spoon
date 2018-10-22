@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/usersList.js" type="text/javascript"></script>
+</head>
+<body style="padding-top: 4rem">
+<navbar class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+        <h3 class="text-primary"><b>M Y S H O P</b></h3>
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Product List</a>
+        </li>
+
+        <li class="nav-item">
+            <a id="button8" class="nav-link" href="/logout">Logout</a>
+        </li>
+    </ul>
+</navbar>
+
+<table class="table table-bordered" id="userstable" border="0">
+    <thead>
+    <tr >
+        <th class='text-center' width="100">Order No.</th>
+        <th class='text-center' width="100">Username</th>
+        <th class='text-center' width="100">Role</th>
+        <th class='text-center' width="100">Email</th>
+        <th class='text-center' width="100">Phone </th>
+        <th class='text-center' width="150">Address</th>
+        <th class='text-center' width="100">Password </th>
+    </tr>
+    </thead>
+    <h4 id="head">Users List</h4>
+    <tbody id="users">
+    </tbody>
+</table>
+
+</body>
+</html>
+
+

@@ -1,0 +1,113 @@
+@media screen {
+    body {
+        background-image:url('static/images/bg-login.jpg');
+        background-size: cover;
+    }
+}
+@media print {
+    body {
+        background-color:gray;
+    }
+}
+.square{
+    width: 380px;
+    Background-color:white;
+    margin: auto;
+    position: relative;
+}
+.button{
+    background-color: rgb(30,144,255);
+    border:none;
+    color: white;
+    width:300px;
+    padding:4px;
+    margin:auto;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+h1{
+    font-family:verdana;
+    color:white;
+    font-size:180%;
+    text-align:center;
+    padding-top:20px;
+}
+.image{
+    width:50px;
+    height:50px;
+    vertical-align:middle;
+}
+.para1{
+    font-family:verdana;
+    font-size:90%;
+    color:white;
+    text-align:center;
+}
+.para2{
+    text-align:right;
+    color:gray;
+    padding-right:20px;
+    padding-top:20px;
+}
+.loginHeading{
+    font-family:arial;
+    color:rgb(90,90,90);
+    font-size:140%;
+    text-align:center;
+    padding-top:10px;
+}
+.para3{
+    font-family:arial;
+    font-size:75%;
+    padding-left:30px;
+    color:rgb(110,110,110);
+}
+a.signup{
+    color:rgb(31,117,254);
+    text-decoration:none;
+}
+.username{
+    position:relative;
+    left:35px;
+    color:rgb(160,160,160);
+    padding:6px;
+    padding-left:15px;
+    font-style:italic;
+    width:280px;
+}
+.username1{
+    margin-bottom:20px;
+}
+.login{
+    position:relative;
+    left:35px;
+    top:20px;
+    background-color: rgb(30,144,255);
+    border:none;
+    color: white;
+    width:300px;
+    padding:8px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.para4{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:arial;
+    font-size:90%;
+    text-align:center;
+    color:rgb(160,160,160);
+}
+.para5{
+    font-family:arial;
+    font-size:90%;
+    text-align:center;
+    color:white;
+    padding-top:40px;
+}
+a.termsofuse{
+    color:rgb(256,256,256);
+    text-decoration:none;
+}

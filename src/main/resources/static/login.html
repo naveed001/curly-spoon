@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pattern fly login page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+
+    @media screen{
+      body {
+        background: url(images/bg-login.jpg);
+        background-size: cover;
+      }
+      .h1 {
+        margin: auto;
+        color:white;
+        font-size:170%;
+        text-align:center;
+        padding-top: 3%;
+        font-family: sans-serif;
+      }
+      img{
+        width:3%;
+        height:3%;
+        vertical-align:middle;
+        padding-right:20px;
+      }
+      .p1 {
+        margin: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color:white;
+        font-size:80%;
+        width:40%;
+        text-align:center;
+        font-family: sans-serif;
+      }
+
+      .p2 {
+        margin: auto;
+        padding-top: 3%;
+        color:white;
+        font-size:65%;
+        text-align:center;
+        font-family: sans-serif;
+      }
+      .h2 {
+        width:100%;
+        color:black;
+        font-size:150%;
+        text-align:center;
+        padding: 5%;
+        font-family: sans-serif;
+      }
+      .a {
+        float: right;
+        margin-bottom: 5%;
+        width: 25%;
+        border:none;
+        background-color: white
+      }
+      .b {
+        padding-right: 10%;
+        padding-top: 6%;
+        padding-left: 10%;
+        padding-bottom: 7%;
+        margin-top: 3%;
+      }
+
+      .login {
+
+        margin: auto;
+        width:26%;
+        height: 50%;
+        align-content: center;
+        background-color: white;
+        background-repeat: no-repeat;
+      }
+      .username {
+        padding-left: 4%;width:95%;height: 20px;font-style: italic;
+      }
+      .password {
+        margin-top:5%;padding-left: 4%;width:95%;height:20px;font-style: italic;margin-bottom: 4%;
+      }
+
+
+      .need {
+        margin-top:13%;font-size:80%;font-family: sans-serif;text-align:center;
+      }
+
+    }
+
+
+  </style>
+</head>
+<body>
+<h3 class="h1" ><img src="images/icon.svg" alt="Logo"  > M Y S H O P</h3>
+
+<p class= "p1"><b>This is placeholder text,only. Use this area to place any information or introductory message about your application that may be relavent for users</b></p>
+
+<div class ="login">
+  <form class = "b" name="signinform" action="/security_login" method="post">
+
+    <p class = "h2">Log In to Your Account</p>
+    <input class="username"type="text" id="uname" placeholder="Email or phone or username" name="username"  required >
+    <input class="password"type="password" id="pword" placeholder="Password" name="password" required  >
+
+    <a class="need" href="ForgotPassword.html" >Forgot password?</a><br><br>
+<div style="text-align:center;">
+    <button id="login" style="background-color:dodgerblue;width:100%;height:25px" type="submit">Login</button>
+</div>
+    <br>
+    <p class="need">Need an account?<a href="signup.html" > Sign Up</a></p>
+
+
+  </form>
+</div>
+<p class = "p2"> Terms of Use . Help . Privacy Policy</p>
+
+</body>
+</html>

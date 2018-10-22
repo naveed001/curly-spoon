@@ -1,0 +1,89 @@
+show databases;
+
+drop database caseStudy;
+
+create database caseStudy;
+
+use caseStudy;
+
+show tables;
+
+drop table cart;
+
+select * from product where category='Books';
+
+desc cart;
+
+ select product_id,quantity from cart_item;
+
+insert into product
+values (3,'Books', 26.00 ,'Java Book');
+insert into product 
+values ('4','Foods', 125.00,'Mango' );
+
+select * from product;
+select  product_id,quantity from cart_item;
+
+select * from cart_item;
+
+desc cart_item;
+
+desc cart;
+
+desc user;
+
+create table user (username varchar(255) not null, address varchar(255), email varchar(255) not null, enabled integer not null, password varchar(255) not null, user_id integer not null, primary key (username));
+
+create table user_roles (user_role_id varchar(255) not null, role varchar(255), user tinyblob, primary key (user_role_id));
+
+alter table cart add constraint foreign key (user_username) references user (username);
+
+insert into user(user_id,address,email,password,user_name)
+values( 2 , "xfg","abc@abc","abc" , "abcd3"); 
+
+describe cart_item;
+
+select * from cart_item;
+insert into cart(cart_id, user_user_id)
+values(1,1);
+
+
+select * from cart;
+
+insert into user
+values(1, "beehyv", "pritam", "beehyv123", "pritam" );
+
+desc user;
+select * from user;
+  
+insert into cart_item values(19,8,6,"gdd",34);
+show tables;
+
+delete from cart_item
+where quantity = 11;
+
+select username,password from user;
+
+alter table cart add constraint FKr7 foreign key (user_username) references user (username);
+
+describe user;
+desc cart;
+alter table cart add constraint foreign key (user_username) references user (username);
+
+drop table cart;
+select * from cart_item;
+
+drop table user;
+
+create table user (user_name varchar(255) unique not null, address varchar(255), email varchar(255), password varchar(255), role varchar(255) default 'USER', user_id integer not null, primary key (user_id)) ;
+
+select * from product where category ='Fruits';
+
+insert into role values ( 2, 'USER' );
+
+desc role;
+insert into user_role values ( 11, 2 );
+
+select * from user_role;
+
+desc user;
