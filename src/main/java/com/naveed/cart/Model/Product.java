@@ -75,6 +75,18 @@ public class Product {
     public Product(String productname, Double price, Integer category) {
     }
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productid=" + productid +
+                ", productname='" + productname + '\'' +
+                ", price=" + price +
+                ", category='" + category + '\'' +
+                ", details='" + details + '\'' +
+                ", subcategory='" + subcategory + '\'' +
+                '}';
+    }
+
     public Product(Integer productid, String productname, Double price, String category, String details, String subcategory) {
         this.productid=productid;
         this.productname=productname;
